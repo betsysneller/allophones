@@ -1,0 +1,14 @@
+
+*.aux
+
+*.bbl
+
+*.blg
+
+*.log
+
+example.eps
+
+TSWLatexianTemp_allophonicEmergence.tex
+
+TSWLatexianTemp_allophonicEmergence.pdf
