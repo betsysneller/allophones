@@ -1,5 +1,8 @@
 \documentclass[a4paper,aps,prl,12pt,tightenlines,superscriptaddress]{revtex4}
-\usepackage[top=72pt, bottom=72pt, left=72pt, right=72pt]{geometry}
+\usepackage[top=1in,
+bottom=1in,
+left=1in,
+right=1in]{geometry}
 
 \usepackage{natbib}
 \usepackage{multirow}
@@ -9,10 +12,9 @@
 \usepackage{color}
 \usepackage{placeins}
 \usepackage{tabularx, ragged2e,booktabs, caption}
-\usepackage[top=1in,
-bottom=1in,
-left=1in,
-right=1in]{geometry}
+\usepackage{ tipa }
+\usepackage{hyperref}
+\bibpunct[: ]{(}{)}{,}{a}{}{,}
 
 \newcommand{\noteme}[1]{\noindent \textbf{[[JCW:  #1 ]]}}
 
@@ -56,6 +58,7 @@ A purely phonetic change begins, creating variation in phonetic space. This vari
 
 %Rather, we intend to present discussion as a challenge to the fields of historical phonology and sociolinguistics to either confirm or falsify these hypotheses, or to show that some of these scenarios can in fact be reduced to one of the others. 
 
-references
+\bibliographystyle{linquiry2} 
+\bibliography{../tyneside/articles/joelrefs}
 
 \end{document}
