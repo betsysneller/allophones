@@ -1,0 +1,9 @@
+\beamer@endinputifotherversion {3.26pt}
+\beamer@sectionintoc {1}{Introduction}{2}{0}{1}
+\beamer@sectionintoc {2}{Three paths to allophony}{4}{0}{2}
+\beamer@subsectionintoc {2}{1}{Mechanical Means}{4}{0}{2}
+\beamer@subsectionintoc {2}{2}{Spontaneous Phonologization}{6}{0}{2}
+\beamer@subsectionintoc {2}{3}{Phonological Specialization}{8}{0}{2}
+\beamer@subsubsectionintoc {2}{3}{1}{Example: GOOSE-fronting in New Zealand English}{9}{0}{2}
+\beamer@sectionintoc {3}{Testing for the types}{10}{0}{3}
+\beamer@subsectionintoc {3}{1}{Effect of duration}{10}{0}{3}
