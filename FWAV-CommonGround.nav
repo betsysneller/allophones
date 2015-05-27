@@ -97,12 +97,19 @@
 \headcommand {\beamer@framepages {53}{55}}
 \headcommand {\slideentry {5}{0}{12}{56/61}{}{0}}
 \headcommand {\beamer@framepages {56}{61}}
-\headcommand {\slideentry {5}{0}{13}{62/62}{}{0}}
+\headcommand {\sectionentry {6}{\translate {References}}{62}{\translate {References}}{0}}
+\headcommand {\beamer@sectionpages {53}{61}}
+\headcommand {\beamer@subsectionpages {53}{61}}
+\headcommand {\slideentry {6}{0}{13}{62/62}{}{0}}
 \headcommand {\beamer@framepages {62}{62}}
-\headcommand {\slideentry {5}{0}{14}{63/63}{}{0}}
-\headcommand {\beamer@framepages {63}{63}}
-\headcommand {\beamer@partpages {1}{63}}
-\headcommand {\beamer@subsectionpages {53}{63}}
-\headcommand {\beamer@sectionpages {53}{63}}
-\headcommand {\beamer@documentpages {63}}
-\headcommand {\def \inserttotalframenumber {41}}
+\headcommand {\slideentry {6}{0}{13}{62/63}{}{0}}
+\headcommand {\beamer@framepages {62}{63}}
+\headcommand {\slideentry {6}{0}{13}{62/64}{}{0}}
+\headcommand {\beamer@framepages {62}{64}}
+\headcommand {\slideentry {6}{0}{14}{65/65}{}{0}}
+\headcommand {\beamer@framepages {65}{65}}
+\headcommand {\beamer@partpages {1}{65}}
+\headcommand {\beamer@subsectionpages {53}{65}}
+\headcommand {\beamer@sectionpages {53}{65}}
+\headcommand {\beamer@documentpages {65}}
+\headcommand {\def \inserttotalframenumber {43}}
