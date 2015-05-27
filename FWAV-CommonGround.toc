@@ -1,10 +1,10 @@
-\beamer@endinputifotherversion {3.26pt}
+\beamer@endinputifotherversion {3.33pt}
 \beamer@sectionintoc {1}{Introduction}{2}{0}{1}
-\beamer@sectionintoc {3}{Three paths to allophony}{8}{0}{2}
-\beamer@subsectionintoc {3}{1}{Mechanical Means}{8}{0}{2}
-\beamer@subsectionintoc {3}{2}{Spontaneous Phonologization}{17}{0}{2}
-\beamer@subsectionintoc {3}{3}{Phonological Specialization}{20}{0}{2}
-\beamer@sectionintoc {4}{Testing for the types}{31}{0}{3}
-\beamer@subsectionintoc {4}{1}{Effect of duration}{31}{0}{3}
-\beamer@subsectionintoc {4}{2}{Rate of change}{43}{0}{3}
-\beamer@sectionintoc {5}{Conclusions}{56}{0}{4}
+\beamer@sectionintoc {3}{Three paths to allophony}{4}{0}{2}
+\beamer@subsectionintoc {3}{1}{Mechanical Means}{4}{0}{2}
+\beamer@subsectionintoc {3}{2}{Spontaneous Phonologization}{13}{0}{2}
+\beamer@subsectionintoc {3}{3}{Phonological Specialization}{16}{0}{2}
+\beamer@sectionintoc {4}{Testing for the types}{28}{0}{3}
+\beamer@subsectionintoc {4}{1}{Effect of duration}{28}{0}{3}
+\beamer@subsectionintoc {4}{2}{Rate of change}{40}{0}{3}
+\beamer@sectionintoc {5}{Conclusions}{53}{0}{4}
