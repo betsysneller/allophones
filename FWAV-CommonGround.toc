@@ -4,7 +4,7 @@
 \beamer@subsectionintoc {3}{1}{Mechanical Means}{8}{0}{2}
 \beamer@subsectionintoc {3}{2}{Spontaneous Phonologization}{17}{0}{2}
 \beamer@subsectionintoc {3}{3}{Phonological Specialization}{20}{0}{2}
-\beamer@sectionintoc {4}{Testing for the types}{27}{0}{3}
-\beamer@subsectionintoc {4}{1}{Effect of duration}{27}{0}{3}
-\beamer@subsectionintoc {4}{2}{Rate of change}{39}{0}{3}
-\beamer@sectionintoc {5}{Conclusions}{52}{0}{4}
+\beamer@sectionintoc {4}{Testing for the types}{31}{0}{3}
+\beamer@subsectionintoc {4}{1}{Effect of duration}{31}{0}{3}
+\beamer@subsectionintoc {4}{2}{Rate of change}{43}{0}{3}
+\beamer@sectionintoc {5}{Conclusions}{56}{0}{4}
