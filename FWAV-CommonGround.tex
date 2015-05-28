@@ -25,6 +25,14 @@
 %\usepackage{pdfpages}
 
 
+\newcommand{\bonusbegin}{
+   \newcounter{finalframe}
+   \setcounter{finalframe}{\value{framenumber}}
+}
+\newcommand{\bonusend}{
+   \setcounter{framenumber}{\value{finalframe}}
+}
+
 %\usepackage{memoir}
 %\usepackage{relsize}
 %\newcommand{\subscript}[1]{\raisebox{-0.25em}{\smaller #1}}
@@ -252,84 +260,24 @@ We provide evidence that they have all been attested in recent sound changes, an
 \section{Testing for the types}
 
 \subsection{Effect of duration}
-\begin{frame}{Effect of duration: allophones are }
+
+\begin{frame}
+	\begin{center}
+	Does a surface distinction map to one underlying category or two?
+	\end{center}
+\end{frame}
+
+
+\begin{frame}{Effect of duration}
 	\begin{itemize} 
-		\item If a difference in acoustic output is caused by coarticulation rather than allophony, then the difference will be bigger for shorter tokens.
-		\item If the difference is caused by allophony, then long and short tokens will all show a difference.
+		\item If a difference in acoustic output is caused by coarticulation, it will increase for short tokens.
+		\item If the difference is caused by allophony, it will be present in the long tokens too.
 	\end{itemize}
 	\begin{center}
 
-	\includegraphics[trim=2cm 2cm 2cm 6cm, clip=true, width=1\textwidth]{DurationEx.pdf}
+	\includegraphics[trim=2cm 2cm 2cm 7cm, clip=true, width=1\textwidth]{DurationEx.pdf}
 
 \end{center}\end{frame}
-
-\begin{frame}{Effect of duration: Mechanical means}
-%NoteJCW: I added another point below
-	\begin{block}{Mechanical means}
-		\begin{itemize}
-			\item Because the allophonic split is the result of accruing phonetic effects, we should see an effect of duration for most speakers, until a reanalysis has been made.
-			\item After the reanalysis, as the new allophone spreads, the earlier effect of duration should decrease over time.
-		\end{itemize}
-	\end{block}	
-\end{frame} 
-
-\begin{frame}{Effect of duration: Mechanical means}
-	\begin{block}{Mechanical means}
-		\begin{center}
-		\includegraphics[trim=2cm 2cm 2cm 2cm, clip=false, width=.7\textwidth]{DurationEx.pdf}
-		\end{center}
-	\end{block}	
-\end{frame}
-
-\begin{frame}{Effect of duration: Spontaneous phonologization}
-	\begin{block}{Spontaneous phonologization}
-		\begin{itemize}
-			\item Because there is no phonetic effect that precedes the phonological effect, we should see no effect of duration at any time \pause
-			\begin{xlist}
-				\ex Speakers with one category show no coarticulation (no difference to be found) \pause
-				\ex Speakers with two categories show two phonological categories (no effect of duration) 
-			\end{xlist}
-		\end{itemize}
-	\end{block}	
-\end{frame}
-
-\begin{frame}{Effect of duration: Spontaneous phonologization}
-	\begin{block}{Spontaneous phonologization}
-	\begin{center}
-	\includegraphics[trim=2cm 2cm 2cm 2cm, clip=false, width=.7\textwidth]{spontdurex.pdf}
-	\end{center}
-	\end{block}	
-\end{frame}
-
-\begin{frame}{Effect of duration: Phonological specialization}
-	\begin{block}{Phonological specialization}
-		\begin{itemize}
-			\item Because the phonologization is the result of reanalyzed coarticulation, we should see older speakers showing an effect of duration (shorter tokens more distinct) \pause
-			\item and younger speakers with two distinct categories for tokens of all duration
-		\end{itemize}
-	\end{block}	
-\end{frame}
-
-\begin{frame}{Effect of duration: Phonological specialization}
-	\begin{block}{Phonological specialization}
-	\begin{center}
-	\includegraphics[trim=2cm 2cm 2cm 2cm, clip=false, width=.7\textwidth]{DurationEx.pdf}
-	\end{center}
-	\end{block}	
-\end{frame}
-
-\begin{frame}{Effect of duration: Phonological specialization}
-	\begin{block}{Phonological specialization in New Zealand English /u/-fronting}
-	\begin{columns}[c]
-	\column{.5\textwidth}
-	\includegraphics[trim=2cm 2cm 2cm 2cm, clip=false, width=.7\textwidth]{GooseNewOldDur.pdf}
-	\column{.5\textwidth}
-	\includegraphics[trim=2cm 2cm 2cm 2cm, clip=false, width=.7\textwidth]{GooseNewYoungDur.pdf}
-	\end{columns}
-	\end{block}	
-\end{frame}
-
-
 
 
 %\begin{frame}{Conclusions}
@@ -358,6 +306,131 @@ We provide evidence that they have all been attested in recent sound changes, an
 	\includegraphics[trim=2cm 2cm 2cm 6cm, clip=true, width=1\textwidth]{RateofChangeEx.pdf}
 
 \end{center}\end{frame}
+
+
+\section{Conclusions}
+
+\begin{frame}{Conclusions: 3 types of allophonic splits}
+	\begin{block}{Mechanical means}
+		\begin{itemize}
+			\item Effect of duration for the whole change until reanalysis
+			\item Gradual split in rate of change \pause
+		\end{itemize}
+	\end{block}
+	
+	\begin{block}{Spontaneous phonologization}
+		\begin{itemize}
+			\item No effect of duration (pre-split don't have a distinction and post-split don't coarticulate)
+			\item Immediate split in rate of change \pause
+		\end{itemize}
+	\end{block}
+	
+	\begin{block}{Phonological specialization}
+		\begin{itemize}
+			\item Effect of duration until reanalysis
+			\item Immediate split in rate of change 
+		\end{itemize}
+	\end{block}
+\end{frame}
+
+\begin{frame}{Final thoughts and questions}
+	\begin{itemize}
+		\item To use these metrics, we need \textbf{lots} of data from lots of people \pause
+			\begin{itemize}
+			\item We need data on changes before they happen, or close to actuation (possible with corpora). \pause
+			\end{itemize}
+		\item DARLA, FAVE \pause
+		\item What about suprasegmentals?
+			\begin{itemize}
+			\item Duration and ROC are good metrics for vocalic and consonantal change \pause
+			\item \cite{Cho2015} Development of pitch contrast in Korean prosody \pause 
+			\end{itemize}		
+		\item Questions going further: how does allophone emergence relate to phoneme emergence?
+		\item What's the role of learned phonetic targets (pre-phonological) in allophonic split, or gradient phonological rules in Bermúdez-Otero's work?
+	\end{itemize}
+\end{frame}
+
+\begin{frame}[allowframebreaks]
+\frametitle{References}
+
+%\newcommand*{\newblock}{natbib}
+\bibliographystyle{linquiry2}
+\bibliography{fwavrefs}
+\end{frame}
+
+\begin{frame}
+\begin{center}
+\huge{Thank you!}
+\end{center}
+\end{frame}
+
+\bonusbegin
+
+\begin{frame}[noframenumbering]{Effect of duration: Mechanical means}
+%NoteJCW: I added another point below
+	\begin{block}{Mechanical means}
+		\begin{itemize}
+			\item Because the allophonic split is the result of accruing phonetic effects, we should see an effect of duration for most speakers, until a reanalysis has been made.
+			\item After the reanalysis, as the new allophone spreads, the earlier effect of duration should decrease over time.
+		\end{itemize}
+	\end{block}	
+\end{frame} 
+
+\begin{frame}[noframenumbering]{Effect of duration: Mechanical means}
+	\begin{block}{Mechanical means}
+		\begin{center}
+		\includegraphics[trim=2cm 2cm 2cm 2cm, clip=false, width=.7\textwidth]{DurationEx.pdf}
+		\end{center}
+	\end{block}	
+\end{frame}
+
+\begin{frame}[noframenumbering]{Effect of duration: Spontaneous phonologization}
+	\begin{block}{Spontaneous phonologization}
+		\begin{itemize}
+			\item Because there is no phonetic effect that precedes the phonological effect, we should see no effect of duration at any time \pause
+			\begin{xlist}
+				\ex Speakers with one category show no coarticulation (no difference to be found) \pause
+				\ex Speakers with two categories show two phonological categories (no effect of duration) 
+			\end{xlist}
+		\end{itemize}
+	\end{block}	
+\end{frame}
+
+\begin{frame}[noframenumbering]{Effect of duration: Spontaneous phonologization}
+	\begin{block}{Spontaneous phonologization}
+	\begin{center}
+	\includegraphics[trim=2cm 2cm 2cm 2cm, clip=false, width=.7\textwidth]{spontdurex.pdf}
+	\end{center}
+	\end{block}	
+\end{frame}
+
+\begin{frame}[noframenumbering]{Effect of duration: Phonological specialization}
+	\begin{block}{Phonological specialization}
+		\begin{itemize}
+			\item Because the phonologization is the result of reanalyzed coarticulation, we should see older speakers showing an effect of duration (shorter tokens more distinct) \pause
+			\item and younger speakers with two distinct categories for tokens of all duration
+		\end{itemize}
+	\end{block}	
+\end{frame}
+
+\begin{frame}[noframenumbering]{Effect of duration: Phonological specialization}
+	\begin{block}{Phonological specialization}
+	\begin{center}
+	\includegraphics[trim=2cm 2cm 2cm 2cm, clip=false, width=.7\textwidth]{DurationEx.pdf}
+	\end{center}
+	\end{block}	
+\end{frame}
+
+\begin{frame}[noframenumbering]{Effect of duration: Phonological specialization}
+	\begin{block}{Phonological specialization in New Zealand English /u/-fronting}
+	\begin{columns}[c]
+	\column{.5\textwidth}
+	\includegraphics[trim=2cm 2cm 2cm 2cm, clip=false, width=.7\textwidth]{GooseNewOldDur.pdf}
+	\column{.5\textwidth}
+	\includegraphics[trim=2cm 2cm 2cm 2cm, clip=false, width=.7\textwidth]{GooseNewYoungDur.pdf}
+	\end{columns}
+	\end{block}	
+\end{frame}
 
 \begin{frame}{Rate of change: Mechanical means}
 	\begin{block}{Mechanical means}
@@ -424,60 +497,6 @@ We provide evidence that they have all been attested in recent sound changes, an
 	\end{block}	
 \end{frame}
 
-\section{Conclusions}
-
-\begin{frame}{Conclusions: 3 types of allophonic splits}
-	\begin{block}{Mechanical means}
-		\begin{itemize}
-			\item Effect of duration for the whole change until reanalysis
-			\item Gradual split in rate of change \pause
-		\end{itemize}
-	\end{block}
-	
-	\begin{block}{Spontaneous phonologization}
-		\begin{itemize}
-			\item No effect of duration (pre-split don't have a distinction and post-split don't coarticulate)
-			\item Immediate split in rate of change \pause
-		\end{itemize}
-	\end{block}
-	
-	\begin{block}{Phonological specialization}
-		\begin{itemize}
-			\item Effect of duration until reanalysis
-			\item Immediate split in rate of change 
-		\end{itemize}
-	\end{block}
-\end{frame}
-
-\begin{frame}{Final thoughts and questions}
-	\begin{itemize}
-		\item To use these metrics, we need \textbf{lots} of data from lots of people \pause
-			\begin{itemize}
-			\item We need data on changes before they happen, or close to actuation (possible with corpora). \pause
-			\end{itemize}
-		\item DARLA, FAVE \pause
-		\item What about suprasegmentals?
-			\begin{itemize}
-			\item Duration and ROC are good metrics for vocalic and consonantal change \pause
-			\item \cite{Cho2015} Development of pitch contrast in Korean prosody \pause 
-			\end{itemize}		
-		\item Questions going further: how does allophone emergence relate to phoneme emergence?
-		\item What's the role of learned phonetic targets (pre-phonological) in allophonic split, or gradient phonological rules in Bermúdez-Otero's work?
-	\end{itemize}
-\end{frame}
-
-\begin{frame}[allowframebreaks]
-\frametitle{References}
-
-%\newcommand*{\newblock}{natbib}
-\bibliographystyle{linquiry2}
-\bibliography{fwavrefs}
-\end{frame}
-
-\begin{frame}
-\begin{center}
-\huge{Thank you!}
-\end{center}
-\end{frame}
+\bonusend
 
 \end{document}
