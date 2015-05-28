@@ -6,5 +6,5 @@
 \beamer@subsectionintoc {3}{3}{Phonological Specialization}{16}{0}{2}
 \beamer@sectionintoc {4}{Testing for the types}{32}{0}{3}
 \beamer@subsectionintoc {4}{1}{Effect of duration}{32}{0}{3}
-\beamer@subsectionintoc {4}{2}{Rate of change}{35}{0}{3}
-\beamer@sectionintoc {5}{Conclusions}{39}{0}{4}
+\beamer@subsectionintoc {4}{2}{Rate of change}{36}{0}{3}
+\beamer@sectionintoc {5}{Conclusions}{41}{0}{4}
